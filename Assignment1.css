@@ -1,0 +1,18 @@
+.employee_form{
+    padding: 10px 10px 10px 10px;
+    border: solid black 1px;
+    background-color:rgb(240, 240, 220);
+    width: auto;
+    height: auto;
+}
+.employee_form h1{
+    text-align: center;
+}
+@media screen and (max-width: 700px) {
+    .employee_form{
+        text-align: start;
+    }
+    .employee_form h1{
+        text-align: start;
+    }
+}

@@ -1,0 +1,12 @@
+.assignment2 div{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(240, 226, 226);
+    font-variant: normal;
+} 
+body .assignment2{
+    width: 50%;
+    margin-left: 400px;
+    color:rgb(88, 15, 15);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

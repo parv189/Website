@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+.content {
+    margin: 20px;
+    padding: 20px;
+}
+.container{
+    min-width: 300px;
+    font: 16px ;
+    line-height: 20px;
+    color: #2a0e0e;
+}
+
+.container h1{
+    margin-right: 16px;
+    padding-right: 16px;
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(27, 26, 26);
+    line-height: 50px;
+}
+
+.container h2{
+    font-size: 20px;
+    margin: 0 0 6px 0;
+    position: relative;
+}
+
+.container p{
+    color: #2a0e0e;
+    margin-bottom: 16px;
+}
+.container a{
+    color: #2a0e0e;
+    border-bottom: 1px solid rgb(27, 26, 26);
+    text-decoration: none;
+
+}
+.container a:hover{
+    color: #2a0e0e;
+    border-bottom-style: solid;
+    color: #2a0e0e;
+
+}
+.object{
+    font-style: italic;
+    color: darkgray;
+}
+img{
+    float: right;
+    padding: 10px;
+    background: #fff;
+    margin: 0 30px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+
+}
+.container dt{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    padding: 0 24px 0 0;
+    width: 150px;
+    border-right: 1px solid black;
+}
+.container dl{
+    display: table-row;
+}
+
+.container dl dd{
+    display: table-cell;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    width: 500px;
+}
+
+.container dl dt{
+    display: table-cell;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1100px){
+    .container h2{
+        position: static;
+        display: block;
+        margin-top: 2px;
+    }
+}
+@media screen and (max-width: 550px){
+    body{
+        margin: 4px;
+    }
+}
+@media screen and (max-width: 400px){
+    .container dt{
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    .container dl dd,.container dl dt, .container dl{ 
+        display: block;
+        padding-bottom: 0;
+        padding-left: 0;
+        margin-left: 0;
+        text-align: left;
+        width: 100%;
+    
+    }
+    .container dl dd{
+       margin-top: 8px;
+    }
+    .container h2{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .container dt{
+        font-size: 20px;
+    }
+    .container h1{
+        margin-right: 0;
+        font-size: 36px;
+        line-height: 0;
+    }
+    img{
+        margin: 0 ;
+    } 
+}
+@media screen and (max-width: 320px){
+    body{
+        margin: 0;
+    }
+    img{
+        margin: 0 ;
+        margin-bottom: -40px;
+    } 
+    .container{
+        width: 300px;
+        padding: 10px;
+        overflow: hidden;
+    }
+    p, li{
+        margin-right: 18px;
+    }
+    
+}
+@media only screen and (max-width: 700px) {
+    .content {
+        margin: 0;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .leftbar {
+        width: auto;
+        height: 400px;
+        text-align: start;
+    }
+}
+

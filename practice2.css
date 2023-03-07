@@ -1,0 +1,13 @@
+.grade table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+    height: auto;
+}
+@media screen and (max-width: 700px) {
+    .row2 .grade{
+        text-align: center;
+        margin: 20px 10px;
+
+    }
+}

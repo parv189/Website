@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="html_style.css">
+    <style>
+        .content {
+            margin: 0;
+            width: 100%;
+        }
+
+        .header_3 {
+            width: auto;
+            height: 200px;
+            background-color: cornflowerblue;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .footer_3 {
+            width: auto;
+            height: 100px;
+            background-color: cornflowerblue;
+            position: relative;
+            bottom: 0;
+        }
+
+        .text_3 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .text_3 h1 {
+            align-self: center;
+            color: rgb(20, 49, 102);
+        }
+
+        .nav_3 {
+            position: relative;
+            display: flex;
+            align-self: flex-end;
+            bottom: 10px;
+        }
+
+        .nav_3 a {
+            text-decoration: none;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+
+        }
+
+        .value_3 {
+            display: none;
+
+        }
+
+        .value_3:target {
+            display: flex;
+            font-size: 50px;
+            margin: 50px;
+        }
+
+        #img_3 {
+            height: 200px;
+        }
+
+        .leftbar_3 {
+            display: flex;
+
+        }
+
+        .bar_3 {
+            display: flex;
+            flex-direction: column;
+            height: 300px;
+            width: 200px;
+            background-color: darkgray;
+            padding: 40px;
+            justify-content: space-evenly;
+        }
+
+        .bar_3 a {
+            text-decoration: none;
+        }
+
+        .close_3 {
+            position: relative;
+            top: 0;
+            right: 0;
+
+        }
+
+        @media only screen and (max-width: 700px) {
+            .content {
+                margin: 0;
+                width: 100%;
+                margin-top: 40px;
+            }
+
+            .leftbar {
+                width: auto;
+                height: 400px;
+                text-align: start;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="continer">
+        <div class="row1">
+            <div class="left">
+                <img src="Radix_logo.jpg" alt="logo">
+            </div>
+            <div class="right">
+                <div><a href="home.html">Home</a></div>
+                <div><a href="html.html">HTML</a></div>
+                <div><a href="CSS.html">CSS</a></div>
+                <div><a href="#bootstrap">Bootstrap</a></div>
+                <div><a href="#javascript">JavaScript</a></div>
+                <div><a href="jquary">JQuary</a></div>
+                <div><a href="#miniproject">Mini Project</a></div>
+                <div><a href="sql">SQL</a></div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="leftbar">
+                <ul>&#x2022;Day 4
+                    <ul>&#x25CB;assignment
+                        <ul>&#x25A0;<a href="d1_A1_CSS.html">Assignment 1</a></ul>
+                        <ul>&#x25A0;<a href="d1_a2_CSS.html">Assignment 2</a></ul>
+                        <ul>&#x25A0;<a href="d1_a3_CSS.html">Assignment 3</a></ul>
+                    </ul>
+                    <ul>&#x25CB;Practice
+                        <ul>&#x25A0;<a href="d1_p1_CSS.html">Practice 1</a></ul>
+                        <ul>&#x25A0;<a href="d1_p2_CSS.html">Practice 2</a></ul>
+                        <ul>&#x25A0;<a href="d1_p3_CSS.html">Practice 3</a></ul>
+                        <ul>&#x25A0;<a href="d1_p4_CSS.html">Practice 4</a></ul>
+                    </ul>
+                </ul>
+                <ul>&#x2022;Day 5
+                    <ul>&#x25CB;assignment
+                        <ul>&#x25A0;<a href="d2_a1_CSS.html">Assignment 1</a></ul>
+                        <ul>&#x25A0;<a href="d2_a2_css.html">Assignment 2</a></ul>
+                        <ul>&#x25A0;<a href="d2_a3_CSS (2).html">Assignment 3</a></ul>
+                        <ul>&#x25A0;<a href="d2_a4_CSS.html">Assignment 4</a></ul>
+                        <ul>&#x25A0;<a href="d2_a5_CSS.html">Assignment 5</a></ul>
+                        <ul>&#x25A0;<a href="home.html">Assignment 6</a></ul>
+                        <ul>&#x25A0;<a href="d2_a7_CSS.html">Assignment 7</a></ul>
+                    </ul>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="header_3">
+                    <div>
+                        <img id="img_3" src="logo_d1_a3_CSS.png" alt="logo">
+                    </div>
+                    <div class="text_3">
+                        <h1 id="h1a">Header</h1>
+                    </div>
+                    <div class="nav_3">
+                        <div><a href="#home">Home</a></div>
+                        <div><a href="#about us">About Us</a></div>
+                        <div><a href="#contact us">Contact Us</a></div>
+                    </div>
+                </div>
+                <div class="leftbar_3">
+                    <div class="bar_3">
+                        <div id="close_3"><a href="#Close">Close</a></div>
+                        <div>Click on A :<a href="#A"> A</a></div>
+                        <div>Click on A :<a href="#B"> B</a></div>
+                        <div>Click on A :<a href="#C"> C</a></div>
+                        <div>Click on A :<a href="#D"> D</a></div>
+                    </div>
+                    <div class="value_3" id="A">
+                        <p>Contant about A</p>
+                    </div>
+                    <div class="value_3" id="B">
+                        <p>Contant about B</p>
+                    </div>
+                    <div class="value_3" id="C">
+                        <p>Contant about C</p>
+                    </div>
+                    <div class="value_3" id="D">
+                        <p>Contant about D</p>
+                    </div>
+                </div>
+                <div class="footer_3">
+                    <div class="text_3">
+                        <h1 id="h1a">Footer</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
